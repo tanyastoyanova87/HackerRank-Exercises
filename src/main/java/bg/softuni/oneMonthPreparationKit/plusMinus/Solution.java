@@ -1,4 +1,4 @@
-package bg.softuni.plusMinus;
+package bg.softuni.oneMonthPreparationKit.plusMinus;
 
 import java.io.*;
 import java.util.*;
