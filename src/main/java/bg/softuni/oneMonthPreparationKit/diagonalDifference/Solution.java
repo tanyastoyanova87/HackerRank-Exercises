@@ -31,6 +31,7 @@ class Result {
 public class Solution {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(System.out));
 
         int n = Integer.parseInt(bufferedReader.readLine().trim());
 
@@ -49,8 +50,10 @@ public class Solution {
         });
 
         int result = Result.diagonalDifference(arr);
-        System.out.println(result);
+        bufferedWriter.write(String.valueOf(result));
+        bufferedWriter.newLine();
 
         bufferedReader.close();
+        bufferedWriter.close();
     }
 }
