@@ -17,7 +17,7 @@ class Result {
      */
 
     public static List<Integer> countingSort(List<Integer> arr) {
-        int[] frequency = new int[100]; // fixed size array for 0–99
+        int[] frequency = new int[100];
 
         for (int num : arr) {
             frequency[num]++;
